@@ -1,0 +1,12 @@
+blt = int(input())
+a = blt % 10
+b = blt // 10 % 10
+c = blt // 100 % 10
+d = blt // 1000 % 10
+e = blt // 10000 % 10
+f = blt // 100000 % 10
+if a + b + c == d + e + f:
+    print('Счастливый')
+else:
+    print('Обычный')
+    
